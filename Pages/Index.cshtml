@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    
+}
+@if (Model.ExcelFile is null)
+{
+    <h1>The report is not available. Please refresh the page in a few minutes.</h1>
+}
+else
+{
+    <h1>Download Excel Report</h1>
+    <h3>Monday: @Model.ExcelFile!.StartDateFormatted</h3>
+    <h3>Sunday: @Model.ExcelFile!.EndDateFormatted</h3>
+    <h4><a href="@Url.Page("Index", "DownloadExcelReport", new { excelFilePath = Model.ExcelFile!.FilePath })">Download</a></h4>
+}
