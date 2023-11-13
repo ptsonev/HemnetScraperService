@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HemnetScraperService", "HemnetScraperService.csproj", "{F6EF69BF-9484-4654-A153-55DE1628756D}"
 EndProject
+Project("{B7DD6F7E-DEF8-4E67-B5B7-07EF123DB6F0}") = "HemnetScraperServiceInstaller", "..\HemnetScraperServiceInstaller\HemnetScraperServiceInstaller.wixproj", "{70C3B84E-3C86-4B58-AEA5-B56B6271423E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,22 @@ Global
 		{F6EF69BF-9484-4654-A153-55DE1628756D}.Release|x64.Build.0 = Release|Any CPU
 		{F6EF69BF-9484-4654-A153-55DE1628756D}.Release|x86.ActiveCfg = Release|Any CPU
 		{F6EF69BF-9484-4654-A153-55DE1628756D}.Release|x86.Build.0 = Release|Any CPU
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Debug|Any CPU.Build.0 = Debug|x64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Debug|ARM64.Build.0 = Debug|ARM64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Debug|x64.ActiveCfg = Debug|x64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Debug|x64.Build.0 = Debug|x64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Debug|x86.ActiveCfg = Debug|x86
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Debug|x86.Build.0 = Debug|x86
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Release|Any CPU.ActiveCfg = Release|x64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Release|Any CPU.Build.0 = Release|x64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Release|ARM64.ActiveCfg = Release|ARM64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Release|ARM64.Build.0 = Release|ARM64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Release|x64.ActiveCfg = Release|x64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Release|x64.Build.0 = Release|x64
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Release|x86.ActiveCfg = Release|x86
+		{70C3B84E-3C86-4B58-AEA5-B56B6271423E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

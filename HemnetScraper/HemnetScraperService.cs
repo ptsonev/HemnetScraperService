@@ -42,6 +42,7 @@ namespace HemnetScraperService.Scraper
                 catch (Exception ex)
                 {
                     _logger.LogError(ex, message: string.Empty);
+                    await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
                 }
             }
 
